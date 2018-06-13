@@ -1,0 +1,27 @@
+**How it was designed**
+
+    The design for this project took a bit of figuring out at first. Using the slots
+made the code appear to get extremely messy and disorderly. Trying to use a bunch of if/
+else if/else statements became confusing and annoying, and it would not always work for
+what I would attmept to do. As a result, it became much easier to just simply use comments 
+in the code and then use intents. Each intent was assigned the choice number. The main
+issue at first was that the intents were not recognizing the choice that a user would
+make. Therefore, the code would endlessly repeat and choose the first option that had
+the number. This made it difficult to use if statements and slots. As a result,
+intents were used, and each choice was given a number. This resulted in 70 different 
+choices in the game that a user can make. The user only has to say what number
+they want for their choice.
+    When it came to mini games and making the game have more than simple scripted work,
+functions were made that would create a random number and be implemented into the game
+to create a risk factor in the game. It makes sure that every playthrough in some
+pathways have a chance at being different. These random choices were done with if
+statements inside of their intent. In addition to these functions, there are end game functions.
+At some points, it becomes clear that only one choice will move you forward,
+while the other will cause the same thing to happen. To prevent the redundancy in
+code, functions were made that say one thing. This allows for the game to have choices
+that result in the same ending, even though they are not in the same set of choices.
+    Finally, the game was designed straight from the beginning to be fun. It was 
+not meant to be a useful tool. It instead allows the user to learn how to communicate
+with their Alexa, and also becomes a great time killer. Considering there are 70 different
+choices with some being random, it ensures that the user will not be bored and 
+have something fun to do with their Alexa, other than googling or shopping.
